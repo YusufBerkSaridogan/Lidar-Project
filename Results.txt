@@ -1,0 +1,292 @@
+Frame 100:
+
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 218)
+Points inside: 2199 / 2773 (79.30%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 216)
+Points inside: 294 / 619 (47.50%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 215)
+Points inside: 233 / 334 (69.76%)
+Result: Good match
+
+Evaluating the car_subcloud_003.bin:
+Best match: BBox index: 210)
+Points inside: 11 / 223 (4.93%)
+Result: Bad match
+
+Frame 250:
+
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 145)
+Points inside: 667 / 943 (70.73%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+No valid bounding box found.
+Points inside: 0 / 196 (0.00%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+No valid bounding box found.
+Points inside: 0 / 30 (0.00%)
+Result: Bad match
+
+Frame 360:
+
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 287)
+Points inside: 518 / 747 (69.34%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+No valid bounding box found.
+Points inside: 0 / 159 (0.00%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 281)
+Points inside: 296 / 387 (76.49%)
+Result: Good match
+
+Evaluating the car_subcloud_003.bin:
+No valid bounding box found.
+Points inside: 0 / 31 (0.00%)
+Result: Bad match
+
+Frame 570:
+no car
+
+Frame 644:
+
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 893)
+Points inside: 808 / 1327 (60.89%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 915)
+Points inside: 23 / 250 (9.20%)
+Result: Bad match
+
+Frame 729:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 893)
+Points inside: 702 / 1227 (60.89%)
+Result: Good match
+
+Frame 947:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 1106)
+Points inside: 1676 / 3456 (48.50%)
+Result: Bad match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 1135)
+Points inside: 554 / 992 (55.85%)
+Result: Good match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 1098)
+Points inside: 124 / 224 (55.36%)
+Result: Good match
+
+Evaluating the car_subcloud_003.bin:
+Best match: BBox index: 1097)
+Points inside: 7 / 88 (7.95%)
+Result: Bad match
+
+Frame 1134:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 1098)
+Points inside: 1772 / 2620 (67.63%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 1135)
+Points inside: 1113 / 1919 (58.00%)
+Result: Good match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 1106)
+Points inside: 511 / 897 (56.97%)
+Result: Good match
+
+Evaluating the car_subcloud_003.bin:
+No valid bounding box found.
+Points inside: 0 / 88 (0.00%)
+Result: Bad match
+
+Frame 1280:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 1193)
+Points inside: 518 / 988 (52.43%)
+Result: Good match
+
+Frame 1338:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 1436)
+Points inside: 53 / 755 (7.02%)
+Result: Bad match
+
+Evaluating the car_subcloud_001.bin:
+No valid bounding box found.
+Points inside: 0 / 331 (0.00%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 1436)
+Points inside: 52 / 220 (23.64%)
+Result: Bad match
+
+Evaluating the car_subcloud_003.bin:
+No valid bounding box found.
+Points inside: 0 / 25 (0.00%)
+Result: Bad match
+
+Frame 1461:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 1402)
+Points inside: 1417 / 2351 (60.27%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 1329)
+Points inside: 54 / 437 (12.36%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 1401)
+Points inside: 417 / 477 (87.42%)
+Result: Good match
+
+Evaluating the car_subcloud_003.bin:
+Best match: BBox index: 1354)
+Points inside: 17 / 32 (53.12%)
+Result: Good match
+
+Evaluating the car_subcloud_004.bin:
+No valid bounding box found.
+Points inside: 0 / 166 (0.00%)
+Result: Bad match
+...
+Evaluating the car_subcloud_006.bin:
+No valid bounding box found.
+Points inside: 0 / 149 (0.00%)
+Result: Bad match
+
+Frame 1597:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 1637)
+Points inside: 348 / 649 (53.62%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 1635)
+Points inside: 551 / 866 (63.63%)
+Result: Good match
+
+Evaluating the car_subcloud_002.bin:
+No valid bounding box found.
+Points inside: 0 / 187 (0.00%)
+Result: Bad match
+
+Frame 1791:
+0 because of the wrong bbox
+
+Frame 1866:
+No car
+
+Frame 2033:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 2870)
+Points inside: 614 / 1205 (50.95%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 2925)
+Points inside: 544 / 872 (62.39%)
+Result: Good match
+
+Frame 2098:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 2915)
+Points inside: 1107 / 1705 (64.93%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+Best match: BBox index: 2911)
+Points inside: 228 / 685 (33.28%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+Best match: BBox index: 2920)
+Points inside: 60 / 201 (29.85%)
+Result: Bad match
+
+Evaluating the car_subcloud_003.bin:
+Best match: BBox index: 2913)
+Points inside: 765 / 1742 (43.92%)
+Result: Bad match
+
+Evaluating the car_subcloud_004.bin:
+Best match: BBox index: 2922)
+Points inside: 247 / 346 (71.39%)
+Result: Good match
+...
+Evaluating the car_subcloud_015.bin:
+No valid bounding box found.
+Points inside: 0 / 73 (0.00%)
+Result: Bad match
+
+Frame 2449:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 18503)
+Points inside: 856 / 1400 (61.14%)
+Result: Good match
+
+Evaluating the car_subcloud_001.bin:
+No valid bounding box found.
+Points inside: 0 / 68 (0.00%)
+Result: Bad match
+
+Evaluating the car_subcloud_002.bin:
+No valid bounding box found.
+Points inside: 0 / 202 (0.00%)
+Result: Bad match
+
+Evaluating the car_subcloud_003.bin:
+Best match: BBox index: 18494)
+Points inside: 3 / 147 (2.04%)
+Result: Bad match
+
+Evaluating the car_subcloud_004.bin:
+No valid bounding box found.
+Points inside: 0 / 65 (0.00%)
+Result: Bad match
+...
+Evaluating the car_subcloud_009.bin:
+No valid bounding box found.
+Points inside: 0 / 148 (0.00%)
+Result: Bad match
+
+Frame 2717:
+Nope
+
+Frame 2903:
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 4732
+Points inside: 2080 / 2890 (71.97%)
+Result: Good match
+
+Frame 2939:
+
+Evaluating the car_subcloud_000.bin:
+Best match: BBox index: 5580
+Points inside: 914 / 1262 (72.42%)
+Result: Good match
