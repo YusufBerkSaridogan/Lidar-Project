@@ -40,7 +40,6 @@ xyz = points[:, :3]
 
 #### Matrix Operation:
 
-\[
 \begin{bmatrix}
 u \\
 v \\
@@ -54,13 +53,10 @@ y \\
 z \\
 1 \\
 \end{bmatrix}
-\]
 
 Then normalize:
 
-\[
-u' = \frac{u}{w}, \quad v' = \frac{v}{w}
-\]
+[u, v, w]^T = P_rect · Tr_velo_to_cam · [x, y, z, 1]^T
 
 ```python
 points_hom = np.hstack((points[:, :3], np.ones((points.shape[0], 1))))
