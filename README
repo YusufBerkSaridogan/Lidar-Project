@@ -3,4 +3,35 @@ This project done for the Lidar and Radar System Compulsory Project.
 
 This README file made for a better understanding the project with explanations.
 
-Firstly, to run the program you need to use the KITTI-360 dataset and Bounding boxes provided by the Professor.
+Firstly, to run the program you need to use the KITTI-360 dataset and Bounding boxes provided by the Professor. I explained the project task by task. 
+
+-----Task 1----- YOLO Segmentation
+YOLO is a real-time object detection model that combines high speed and accuracy. In this task, the segmentation model is used to detect and car objects from images.
+
+Steps:
+1-Load the YOLOv8 segmentation model.
+2-Loop through a folder of KITTI-360 images.
+3-For each image:
+-Run the segmentation model.
+-Extract the segmentation masks.
+-Save the masks in .npy format.
+
+-----Task 2----- Velodyne Data Visualization with Open3D
+In Task 2, we loaded 3D LiDAR data and visualized the point cloud. We used Open3D for visualization.
+
+Steps:
+1-Load .bin files containing point cloud data.
+2-Reshape the data to x,y,z coordinates
+3- convert these coordinates to open3d point cloud object.
+
+Each LiDAR point includes four values: the 3D coordinates (x, y, z) and a reflectance value. Reflectance value is important to see which represents how strongly the laser beam was reflected by the object surface. 
+We reshaped the coordinates using .reshape(-1,4) to make it simpler to do operations. Ecah row corresponds to single lidar point with features. First 3 columns is x,y,z coordinates. 
+Also for the reflectance values I did reflectance - reflectance.min()) / (reflectance.ptp() + 1e-6) this to change the values between 0-1. It was easier after normalizing the insensity values tobetween 0-1 values. "1e-6" this is for avoiding division by 0.Because we can get 0 values
+
+-----Task 3----- Camera Images with Projected Points
+This part for me it was really hard. Because I had a problem with calibration and using matrices for transforming the values. Our job was to project 3D point cloud to corresponding 2D left camera's perspective. 
+Calibration matrices are used to transform points from the LiDAR coordinate system to the camera coordinate system, and then to the 2D image plane. To do this I used calib_cam_to_velo.txt which is 3x4 matrix. First we'll append a row to make it square and homogeneous . [0,0,0,1].
+Then we need to take inverse of it because the calibration is for camera to velo.
+
+
+
